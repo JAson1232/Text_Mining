@@ -1,0 +1,10 @@
+Classification Report:
+...
+Precision: 0.89
+Recall: 0.87
+F1-score: 0.88
+Accuracy: 0.87
+
+
+Number of True predictions: 207
+Number of False predictions: 30
