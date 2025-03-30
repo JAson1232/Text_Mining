@@ -86,38 +86,4 @@ Computes precision, recall, F1 score, and accuracy for all models.
 4. Topic Classification (Zero-Shot Classification)
 Uses Hugging Face’s zero-shot classification pipeline to classify text into topics.
 
-Usage
-Training Naive Bayes on the Dynasent Dataset:
 
-python
-Copy
-Edit
-# Load the dataset
-file_path = 'path_to_dynasent_dataset.jsonl'
-# Follow the preprocessing and training steps as outlined in the code
-Training Naive Bayes on the Amazon Alexa Dataset:
-
-python
-Copy
-Edit
-# Load the dataset
-file_path = 'path_to_amazon_alexa_dataset.tsv'
-# Follow the preprocessing and training steps as outlined in the code
-Sentiment Analysis with BERT:
-
-python
-Copy
-Edit
-# Example for performing sentiment analysis with BERT
-sentiment = extract_3way_sentiment("I love this product!")
-print(f"The sentiment is: {sentiment}")
-Topic Classification using Zero-Shot:
-
-python
-Copy
-Edit
-# Perform zero-shot classification on text
-result = classifier("I am learning machine learning.")
-print(result)
-Evaluation and Metrics
-Each model (Naive Bayes and BERT) is evaluated using accuracy, precision, recall, F1 score, and confusion matrices. These metrics are printed out for each dataset to assess the model's performance.
