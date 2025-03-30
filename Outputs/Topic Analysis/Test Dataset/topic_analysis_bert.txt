@@ -1,0 +1,4 @@
+Topic Classification Accuracy: 0.8889
+Topic Classification Precision: 0.9167
+Topic Classification Recall: 0.8889
+Topic Classification F1 Score: 0.8857
